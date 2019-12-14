@@ -35,4 +35,3 @@ attr_accessor :sender, :receiver, :amount, :status
       self.status = "reversed"
     end
   end
-end 	
