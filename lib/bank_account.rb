@@ -13,10 +13,10 @@ attr_reader :name
   end
 
   def display_balance
-    "Your Balance is $#{@balance}."
+    "Your Balance is $#{avi.balance}."
   end
 
-  def valid?
+  def valid
     if @status == "open" && @balance > 0
       true
     else
